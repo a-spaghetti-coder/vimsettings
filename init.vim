@@ -8,6 +8,7 @@ call plug#begin("~/.vim/plugged")
 	Plug 'scrooloose/syntastic'
 	Plug 'Yggdroot/indentLine'
 	Plug 'dense-analysis/ale'
+	Plug 'tpope/vim-fugitive'
 call plug#end()
 
 set tabstop=4
