@@ -9,6 +9,7 @@ call plug#begin("~/.vim/plugged")
 	Plug 'Yggdroot/indentLine'
 	Plug 'dense-analysis/ale'
 	Plug 'tpope/vim-fugitive'
+	Plug 'pixelneo/vim-python-docstring'
 call plug#end()
 
 set tabstop=4
