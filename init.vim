@@ -28,4 +28,9 @@ let g:airline_theme='base16_gruvbox_dark_hard'
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 let g:ale_linters = {'python': ['autopep8'], 'shell': ['shellcheck']}
-let g:ale_fixers = {'python': ['black'], 'javascript': ['eslint', 'prettier'], 'html':['html-beautify']}
+let g:ale_fixers = {'python': ['black'], 'javascript': ['eslint', 'prettier'], 'html':['html-beautify'], 'json':['prettier']}
+
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
