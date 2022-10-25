@@ -16,7 +16,7 @@ call plug#end()
 set tabstop=4
 set shiftwidth=4
 set number
-set cc=80
+set cc=88
 set background=dark
 let g:indentLine_char_list = ['▏']
 set list lcs=tab:\|\ 
