@@ -10,6 +10,7 @@ call plug#begin("~/.vim/plugged")
 	Plug 'dense-analysis/ale'
 	Plug 'tpope/vim-fugitive'
 	Plug 'pixelneo/vim-python-docstring'
+	Plug 'preservim/nerdtree'
 call plug#end()
 
 set tabstop=4
