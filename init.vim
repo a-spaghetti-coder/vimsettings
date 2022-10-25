@@ -17,9 +17,14 @@ set shiftwidth=4
 set number
 set cc=80
 set background=dark
-let g:indentLine_char_list = ['▏', '|', '¦', '┆', '┊']
+let g:indentLine_char_list = ['▏']
 set list lcs=tab:\|\ 
 colorscheme gruvbox
 
 let g:airline_theme='base16_gruvbox_dark_hard'
 
+" Ale config
+let g:ale_fix_on_save = 1
+let g:ale_completion_enabled = 1
+let g:ale_linters = {'python': ['autopep8'], 'shell': ['shellcheck']}
+let g:ale_fixers = {'python': ['black'], 'javascript': ['eslint', 'prettier'], 'html':['html-beautify']}
